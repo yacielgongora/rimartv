@@ -34,7 +34,7 @@ export default function VideoPlayer({ src }) {
       <video ref={videoRef} />
       <style jsx>{`
         video {
-          max-width: 82%;
+          max-width: 72%;
           margin: 10px auto;
         }
       `}</style>
