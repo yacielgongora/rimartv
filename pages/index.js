@@ -9,7 +9,7 @@ import Contact from '../components/UI/Contact';
 export default function Home() {
   return (
     <Fragment>
-      <Hero src="http://rimartv.sentidocomun.do/hls/stream.m3u8" />
+      <Hero src="//rimartv.sentidocomun.do/hls/stream.m3u8" />
       <Services />
       <Testimonial />
       <Contact />
