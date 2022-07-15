@@ -30,7 +30,7 @@ export default function VideoPlayer({ src }) {
   }, [src, videoRef]);
 
   return (
-    <>
+    <section id="player">
       <video ref={videoRef} />
       <style jsx>{`
         video {
@@ -38,6 +38,6 @@ export default function VideoPlayer({ src }) {
           margin: 10px auto;
         }
       `}</style>
-    </>
+    </section>
   );
 }

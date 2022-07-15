@@ -34,7 +34,9 @@ h6 {
 h2 {
   font-size: 2.5rem !important;
 }
-
+section#player {
+  padding-top: 0px !important;
+}
 section {
   padding-top: 150px;
 }

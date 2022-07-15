@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import Hero from '../components/UI/Hero';
+import Player from '../components/UI/Player';
 import Services from '../components/UI/Services';
 import Testimonial from '../components/UI/Testimonial';
 import Contact from '../components/UI/Contact';
@@ -7,7 +7,7 @@ import Contact from '../components/UI/Contact';
 export default function Home() {
   return (
     <Fragment>
-      <Hero src="https://rimartv.ddns.net/hls/stream.m3u8" />
+      <Player src="https://rimarrtv.sentidocomundo.com/hls/stream.m3u8" />
       <Services />
       <Testimonial />
       <Contact />
